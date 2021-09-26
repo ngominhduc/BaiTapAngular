@@ -1,0 +1,197 @@
+header{
+    width: 1280px;
+    height: 45px;
+    background-color: #222c45;
+    color: #e9efff;
+}
+
+header #title{
+    margin-left: 530px;
+    background-color: #222c45;
+    height: 25px;
+    margin-top: 15px;
+    font-size: 13px;
+    border: none;
+}
+
+header #logOutButton{
+    width: 100px;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 510px;
+    background-color: #222c45;
+    color: #f8ffff;
+    border-color: #e7ecf0;
+    border-radius: 4px;
+}
+
+body {
+    background-color: #151b31;
+    width: 1280px;
+    margin: 0px;
+}
+
+body .navigation{
+    width: 1215px;
+    height: 55px;
+    margin-left: 30px;
+    background-color: #151b31;
+    color: #eae9f1;
+    border-bottom: 2px;
+    border-color: #4a5666;
+    padding-top: 55px;
+}
+
+body .navigation #dateFrom{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+body .navigation #donvi{
+
+  position: relative;
+  width: 27px;
+}
+
+body .navigation #selectUnit{
+    width: 200px;
+    height: 30px;
+    background-color: #1a2038;
+    color: #f9ffff;
+    text-indent: 5px;
+    margin-right: 5px;
+    border-color: #13192f;
+}
+
+body .navigation #buttonSearch{
+    width: 70px;
+    height: 40px;
+    background-color: #e7ecf0;
+    border-radius: 4px;
+    margin-left: 35px;
+    font-size: 9pt;
+    margin-bottom: 20px;
+}
+
+body .navigation #buttonCancal{
+    background-color: #e7ecf0;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 30px;
+    font-size: 9pt;
+}
+
+body .navigation #dateSelect::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+body .navigation #dateSelect{
+    width: 160px;
+    height: 30px;
+    background-color: #1a2038;
+    color: #d3d6e7;
+    border-color: #13192f;
+    margin-right: 5px;
+}
+
+body .navigation #donvi{
+    width: 27px;
+}
+
+body .navigation #donvigui{
+    
+}
+
+body hr{
+    border: 1px solid #4a5666;
+    margin: 0px;
+}
+
+body .div2{
+    width: 1215px; 
+    margin-left: 30px; 
+    height: 50px;
+    margin-top: 15px;
+    float: left;
+}
+
+body .div2 .siteModel{
+    width: 90px;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+body .div2 img{
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+body table{
+    text-align: center;
+    width: 1190px;
+    margin-left: 45px;
+    border-color: #5f6478;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 2px;
+}
+
+body table tr td{
+    border-color: #5f6478;
+    border-style: solid;
+    border-width: 1px;
+    color: #eff3ff;
+    height: 55px;
+}
+
+body table tr:hover {
+    background-color: #3d545a;
+}
+
+#title{
+    color: #fffdff;
+    background-color: #4d4a5d;
+    border-color: #5f6478;
+    border-style: solid;
+    border-width: 1px;
+    height: 55px;
+}
+
+#c1{
+    width: 45px;
+}
+
+#c2{
+    width: 148px;
+}
+
+#c3{
+    width: 88px;
+}
+
+#c4{
+    width: 147px;
+}
+
+#c5{
+    width: 148px;
+}
+
+#c6{
+    width: 72px;
+}
+
+#c7{
+    width: 81px;
+}
+
+#c8{
+    width: 111px;
+}
+
+#c9{
+    width: 350px;
+}

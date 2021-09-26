@@ -1,0 +1,64 @@
+<header>
+    <p style="float: left;" id="title">DEMO PROJECT</p>
+    <button style="float: left;" id="logOutButton">ĐĂNG XUẤT</button>
+</header>
+
+<body>
+    <div class="navigation" >
+        <label id="dateFrom">Từ ngày:</label>
+        <input type="date" id="dateSelect"  value="2021-09-01" min="2015-01-01" max="2021-09-27" >
+
+        <label > Đến ngày:</label>
+        <input type="date" id="dateSelect"  value="2021-09-26" min="2015-01-01" max="2021-09-27">
+
+        <label id="donvi">Đ.vị gửi</label>
+        <select name="selectUnit" id="selectUnit">
+            <option value="all">Tất Cả</option>
+            <option value="donvi1">Đơn vị 1</option>
+        </select>
+
+        <label id="donvi">Đ.vị nhận</label>
+        <select name="selectUnit" id="selectUnit">
+            <option value="all">Tất Cả</option>
+            <option value="donvi1">Đơn vị 1</option>
+          </select>
+
+        <button id="buttonSearch">Tìm kiếm</button>
+        <button id="buttonCancal">Hủy</button>
+        <hr>
+    </div>
+        
+    <div class="div2">
+        <button class="siteModel">MÔ HÌNH SITE</button>
+        <img src="assets/images/add-icon.png" width="15px" height="15px">
+        <img src="assets/images/add-icon.png" width="15px" height="15px">
+        <img src="assets/images/recycle.png" width="15px" height="15px">
+        <img src="assets/images/recycle.png" width="15px" height="15px">
+        <img src="assets/images/double-next-arrow.jpg" width="15px" height="15px">
+        <img src="assets/images/double-next-arrow.jpg" width="15px" height="15px">
+        <label style="color: aliceblue; float: right; margin-right: 5px; margin-top: 7px;">1/16</label>
+        <img src="assets/images/previous-double-arrow.png" width="15px" height="15px">
+        <img src="assets/images/previous-double-arrow.png" width="15px" height="15px">
+        <hr style="margin-top: 10px;">
+    </div>
+
+    <table>
+        <tr>
+            <th *ngFor="let column of headers" id="title">
+                {{column}}
+            </th>
+        </tr>
+
+        <tr *ngFor="let info of data">
+            <td id="c1">{{info.STT}}</td>
+            <td id="c2">{{info.tenbaocao}}</td>
+            <td id="c3">{{info.thoigian}}</td>
+            <td id="c4">{{info.thoigiantao}}</td>
+            <td id="c5">{{info.thoigiancapnhat}}</td>
+            <td id="c6">{{info.sitegui}}</td>
+            <td id="c7">{{info.sitenhan}}</td>
+            <td id="c8">{{info.trangthai}}</td>
+            <td id="c9">{{info.filedinhkem}} <img src="assets/images/download.jfif" style="width: 21px; height: 21px; margin-left: 50px;"> </td>
+        </tr>
+    </table>
+</body>
